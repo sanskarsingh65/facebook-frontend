@@ -1,0 +1,124 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+}
+.logo-icon-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.logo-icon-login img{
+    width: 225px;
+    padding-bottom: 20px;
+}
+.formx{
+    width: 300px;
+    height: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+
+
+} */
+body{
+    background-color: white;
+}
+.logo-icon-login img{
+    width: 300px;
+    position: relative;
+    left:620px;
+    top: 90px;
+}
+.container{
+    padding: 10px;
+    width: 396px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    border: 1px solid  #dddfe2;;
+    border-radius: 8px;
+    /* display: flex; */
+    /* align-items: flex-start; */
+    justify-content: center;
+    position: relative;
+    left: 577px;
+    top: 110px;
+     box-shadow: 0 2px 4px  rgba(0, 0, 0, .1), 0 8px 16px  rgba(0, 0, 0, .1);;
+
+}
+.heading{
+    /* margin: 2px; */
+    padding-bottom: 4px;
+    text-align: center;
+
+}
+.heading h3{
+    font-size: larger;
+    font-weight: 600;
+    font-style: bold;
+}
+.formx{
+    width: 90%;
+    height: 45px;
+    padding: 6px 16px;
+    /* position: absolute; */
+    /* left: 12px; */
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+.formy{
+    width: 90%;
+    height: 45px;
+    padding: 6px 16px;
+    /* position: absolute; */
+    /* left: 12px; */
+    border-radius: 6px;
+    border: 1px solid grey; 
+    margin-top: 8px; 
+}
+#button{
+    width: 99%;
+    height: 50px;
+    padding: 6px 16px;
+    /* position: absolute; */
+    /* left: 12px; */
+    border-radius: 6px;
+    border: 1px solid grey; 
+    margin-top: 8px; 
+    background-color:#1877f2;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+.link-containertwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.link-containertwo a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 300;
+}
+.image{
+    position: absolute;
+    z-index: -1;
+
+}
+.image img{
+    height: 500px;
+    opacity: 1;
+}
+/* img:hover{
+    opacity: 0.5;
+} */

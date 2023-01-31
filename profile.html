@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0bf75dda8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left" ;><img src="images/logo.png " class="logo" alt="">
+            <ul>
+                <li><a href="https://www.facebook.com/notifications/" target="_main"><img src="images/notification.png"
+                            alt=""></a></li>
+                <li><a href="https://www.google.co.in/" target="_main"><img src="images/inbox.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/watch/?ref=tab" target="_main"><img src="images/video.png"
+                            alt=""></a></li>
+
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online">
+                <img src="images/profileimage1.jpg" onclick="settingsMenuToggle()">
+            </div>
+        </div>
+        <!---------------- settings-menu ------------------------>
+        <div class="settings-menu">
+
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile-navbar">
+                    <img src="images/profileimage1.jpg" alt="">
+                    <div>
+                        <p style="color: grey;">Sanskar Singh</p>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile-navbar">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p style="color: grey;">Give feedback</p>
+                        <a href="#">Help Us to improve</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon" alt="">
+                    <a href="#">Settings and Privacy <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon" alt="">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon" alt="">
+                    <a href="#">Display & Accessbility <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon" alt="">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </nav>
+    <!---------- profile page  --------->
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img" >
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profileimage1.jpg" class="pd-image">
+                    <div>
+                        <h3>Sanskar Singh</h3>
+                        <p>220 Friends-20 Mutual</p>
+                        <img src="images/member-1.png" >
+                        <img src="images/member-2.png" >
+                        <img src="images/member-3.png" >
+                        <img src="images/member-4.png" >
+                        <img src="images/member-5.png" >
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+
+                <button type="button"><img src="images/add-friends.png">Friend</button>
+                <button type="button"><img src="images/message.png" alt=""> Message</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+
+
+
+
+
+            </div>
+        </div>
+        <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Inrto</h3>
+                <p class="intro-text">Believe in yourself you can do anything <img src="images/feeling.png"></p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-job.png"> Director at 99media Ltd.</li>
+                    <li><img src="images/profile-study.png"> Study at Gautam Buddha University</li>
+                    <li><img src="images/profile-study.png">  Went to DPS Delhi</li>
+                    <li><img src="images/profile-home.png"> Live in Bangalore,India</li>
+                    <li><img src="images/profile-location.png"> From Banglore,India</li>
+                </ul>
+            </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                    <div><img src="images/photo1.png" alt=""></div>
+                    <div><img src="images/photo2.png" alt=""></div>
+                    <div><img src="images/photo3.png" alt=""></div>
+                    <div><img src="images/photo4.png" alt=""></div>
+                    <div><img src="images/photo5.png" alt=""></div>
+                    <div><img src="images/photo6.png" alt=""></div>
+                </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                    <div><img src="images/member-1.png" ><p>Jospeh</p></div>
+                    <div><img src="images/member-2.png" ><p>Virat</p></div>
+                    <div><img src="images/member-3.png" ><p>Abhi</p></div>
+                    <div><img src="images/member-4.png" ><p>Ishu</p></div>
+                    <div><img src="images/member-5.png" ><p>Sonu</p></div>
+                    <div><img src="images/member-6.png" ><p>PC</p></div>
+                    <div><img src="images/member-7.png" ><p>Pyush</p></div>
+                    <div><img src="images/member-8.png" ><p>Saksham</p></div>
+                    <div><img src="images/member-9.png" ><p>Golu</p></div>
+                </div>
+                </div> 
+
+
+
+        </div>
+        <div class="post-col">
+            
+        <div class="write-post-container-profile">
+            <div class="user-profile">
+                <img src="images/profileimage1.jpg" alt="">
+                <div>
+                    <p>Sanskar Singh</p>
+                    <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                </div>
+            </div>
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's in your mind,Sanskar?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="images/live-video.png">Live Video</a>
+                    <a href="#"><img src="images/photo.png">Photo/Video</a>
+                    <a href="#"><img src="images/feeling.png">feeling/Activity</a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container-profile">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profileimage1.jpg" alt="">
+                <div>
+                    <p>Sanskar Singh</p>
+                    <span>June 24 2021, 13:40 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>           
+            <p class="post-text">Noida<a href="#"> #advant</a></p>
+            <img src="images\IMG_20220106_234726.jpg" class="post-img" alt="">
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png" alt="">120</div>
+                    <div><img src="images/comments.png" alt="">40</div>
+                    <div><img src="images/share.png" alt="">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profileimage1.jpg" alt="">
+                    <i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container-profile">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profileimage1.jpg" alt="">
+                <div>
+                    <p>Sanskar Singh</p>
+                    <span>June 28 2021, 08:22 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>           
+            <p class="post-text">Booiiiii<a href="#"> #noida</a><a href="#"> #gr.noida</a></p>
+            <img src="images\Snapchat-1613667266.jpg" class="post-img" alt="">
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png" alt="">120</div>
+                    <div><img src="images/comments.png" alt="">40</div>
+                    <div><img src="images/share.png" alt="">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profileimage1.jpg" alt="">
+                    <i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container-profile">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profileimage1.jpg" alt="">
+                <div>
+                    <p>Sanskar Singh</p>
+                    <span>August 04 2021, 04:29 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>           
+            <p class="post-text">Okie Okie<a href="#"></a><a href="#"></a><a href="#"></a></p>
+            <img src="images\Snapchat-1935670018.jpg" class="post-img" alt="">
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png" alt="">120</div>
+                    <div><img src="images/comments.png" alt="">40</div>
+                    <div><img src="images/share.png" alt="">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profileimage1.jpg" alt="">
+                    <i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container-profile">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profileimage1.jpg" alt="">
+                <div>
+                    <p>Sanskar Singh</p>
+                    <span>jan 28 2021, 10:50 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>           
+            <p class="post-text">Yes<a href="#"></a><a href="#"></a><a href="#"></a></p>
+            <img src="images\IMG_20220106_212616_678.webp" class="post-img" alt="">
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png" alt="">120</div>
+                    <div><img src="images/comments.png" alt="">40</div>
+                    <div><img src="images/share.png" alt="">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profileimage1.jpg" alt="">
+                    <i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container-profile">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="images/profileimage1.jpg" alt="">
+                <div>
+                    <p>Sanskar Singh</p>
+                    <span>may 23 2021, 09:36 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>           
+            <p class="post-text">Lodu Log<a href="#"></a><a href="#"></a><a href="#"></a></p>
+            <img src="images\IMG_20220106_213043_384.jpg" class="post-img" alt="">
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png" alt="">120</div>
+                    <div><img src="images/comments.png" alt="">40</div>
+                    <div><img src="images/share.png" alt="">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profileimage1.jpg" alt="">
+                    <i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
